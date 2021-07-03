@@ -1,0 +1,15 @@
+.catsItem{
+    width: calc( 100% / 4);
+    margin: 2%;
+    height: 150px;
+}
+.catsItem > img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+@media screen and (max-width: 560px){
+.catsItem{
+    width: 45%;
+}
+}
